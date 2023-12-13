@@ -1,0 +1,19 @@
+authors = [
+    "James Zow <Jameszow@163.com>",
+    "WanSen AI Team <team@wansenai.com>"
+]
+license = "Apache-2.0 and MIT"
+repository = "https://github.com/wansenai/mes"
+default-run = "mes"
+edition = "2021"
+rust-version = "1.60"
+
+[workspace]
+members = [
+    "api",
+    "dao",
+    "domain",
+    "service",
+    "utils",
+    "config"
+]
